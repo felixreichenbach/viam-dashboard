@@ -12,6 +12,9 @@ docker build \
 
 With SQLYZE ODBC Plugin
 
+There is an issue with the plugin or the odbc driver which wasn't built for the mac / arm architecture. 
+Follow these instructions to build for x86 https://docs.docker.com/build/building/multi-platform/#support-on-docker-desktop
+
 ```
 docker build \
   --build-arg "GRAFANA_VERSION=latest-ubuntu" \
