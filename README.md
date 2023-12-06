@@ -30,6 +30,7 @@ docker exec -it -u 0 grafana-custom /bin/bash
 
 ## "odbcinst -j" Output
 
+```
 unixODBC 2.3.9
 DRIVERS............: /etc/odbcinst.ini
 SYSTEM DATA SOURCES: /etc/odbc.ini
@@ -38,4 +39,6 @@ USER DATA SOURCES..: /root/.odbc.ini
 SQLULEN Size.......: 8
 SQLLEN Size........: 8
 SQLSETPOSIROW Size.: 8
+```
+
 
